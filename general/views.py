@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return HttpResponse("This is a simple homepage")
+    return render(request,"general/home.html")
